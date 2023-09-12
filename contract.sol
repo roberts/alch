@@ -1231,7 +1231,7 @@ contract alch is ERC20, Ownable {
         uint256 totalSupply = 100_000_000_000 ether;
  
         maxTransactionAmount = (totalSupply) / 200; // 500,000,000 tokens
-        maxWallet = (totalSupply) / 100;  //1% of total supply (1,000,000,000 tokens)
+        maxWallet = (totalSupply) / 100;  // 1% of total supply (1,000,000,000 tokens)
         swapTokensAtAmount = (totalSupply * 5) / 10000;
  
         buyMarketingFee = 1;
