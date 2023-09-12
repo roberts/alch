@@ -1299,7 +1299,7 @@ contract alch is ERC20, Ownable {
         excludeFromMaxTransaction(address(uniswapV2Pair), true);
 
         uint256 tokensInWallet = balanceOf(address(this));
-        uint256 tokensToAdd = tokensInWallet * 9 / 10; //90% of tokens in wallet go to LP
+        uint256 tokensToAdd = tokensInWallet * 95 / 100; // 95% of tokens in wallet go to LP
  
         uniswapV2Router.addLiquidityETH{value: address(this).balance}(
             address(this),
