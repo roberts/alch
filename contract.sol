@@ -5,6 +5,8 @@
 /**
  *
  *
+   https://X.com/th_alchemist_ & his bag of Dicks
+
    Contract features:
    3% buy tax in tokens burned
    10% sell tax in ETH sent to marketing w/ some sent to founder & lead dev
