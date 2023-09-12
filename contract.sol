@@ -1252,9 +1252,9 @@ contract alch is ERC20, Ownable {
  
         previousFee = sellTotalFees;
  
-        marketingWallet = address(0xCcff2853D67C92b6511217b9224558046818D677); // Marketing Funds
-        developmentWallet = address(0xC6aa2f0FF6b8563EA418ec2558890D6027413699); // Dev Funds
-        communityFundWallet = address(0xD65746AdED5Ec72899c67752f079Daf020D9c20C); // Community Funds
+        marketingWallet = address(0x12C8165F5677735028C0F20d4A610392D5569993); // Marketing Funds
+        developmentWallet = address(0xC813eDb526830D24A2Ce5801d9Ef5026a3967529); // Dev Funds
+        communityFundWallet = address(0x2EE84cabB24cC7C47fA4E5B7df1Ef07ca12A148A); // Community Funds
  
         excludeFromFees(owner(), true);
         excludeFromFees(address(this), true);
